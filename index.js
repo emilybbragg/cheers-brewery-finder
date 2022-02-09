@@ -79,3 +79,9 @@ function renderStates(selectedState) {
     window.alert('Please clear selection before performing a new search.')
   }
 }
+
+//Clear Event Listener
+const clearBtn = document.getElementById("clear")
+clearBtn.addEventListener("click", () => {
+  list.innerHTML = '\n        '
+})
