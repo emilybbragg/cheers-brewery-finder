@@ -75,3 +75,7 @@ function renderStates(selectedState) {
       list.append(listItem)
     }
   }
+  else {
+    window.alert('Please clear selection before performing a new search.')
+  }
+}
