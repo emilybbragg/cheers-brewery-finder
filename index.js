@@ -1,6 +1,7 @@
 //DOM Content Loaded Event Listener & Corresponding Functions
 document.addEventListener('DOMContentLoaded', () => {
-  fetchBreweries();
+  fetchBreweries()
+  submitListener()
 })
 
 // Fetch the data
