@@ -17,7 +17,7 @@ This project allows users to search for breweries by state, whether they are tra
 4. To clear the current selection and perform a new search, the "reset" button can be selected. An alert will be displayed at the top of the webpage if the current search is not cleared before attempting to perform a new search.
 
 ### Technologies Used
-Vanilla JavaScript
-CSS
-HTML
-Open Brewery API: https://api.openbrewerydb.org/breweries
+- Vanilla JavaScript
+- CSS
+- HTML
+- Open Brewery API: https://api.openbrewerydb.org/breweries
