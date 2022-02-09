@@ -1,3 +1,4 @@
+<img width="1238" alt="Screen Shot 2022-02-08 at 1 25 33 PM" src="https://user-images.githubusercontent.com/94150383/153280118-a57dcf1b-2330-433c-9e58-10b547ce82d3.png">
 # Cheers!
 Your brewery finder.
 
