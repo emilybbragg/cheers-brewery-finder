@@ -64,3 +64,14 @@ function renderStates(selectedState) {
       const weblink = document.createElement('a')
       weblink.innerText = `Website`
       weblink.href = resultsInState[i].website_url
+      const address = document.createElement('p')
+      address.innerText = `Address: ${resultsInState[i].street || ''} ${resultsInState[i].city || ''}, ${resultsInState[i].state || ''} ${resultsInState[i].postal_code || ''}`
+      const liker = document.createElement('button')
+      liker.classList.add('likeButton')
+      liker.textContent = EMPTY_HEART
+      liker.addEventListener('click', likeBrewery)
+
+      listItem.append(name, descrip, phone, address, weblink, liker)
+      list.append(listItem)
+    }
+  }
