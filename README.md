@@ -1,9 +1,7 @@
 <img width="1238" alt="Screen Shot 2022-02-08 at 1 25 33 PM" src="https://user-images.githubusercontent.com/94150383/153280118-a57dcf1b-2330-433c-9e58-10b547ce82d3.png">
-# Cheers!
-Your brewery finder.
 
 ### Overview
-This project allows users to search for breweries by state, whether they are traveling or want to see what is available near them. This is a single-page application that permits users to access any of the features listed below.
+Cheers! allows users to search for breweries by state, whether they are traveling or want to see what is available near them. This is a single-page application that permits users to access any of the features listed below.
 
 ### Features
 -	Use a dropdown menu to select a state 
