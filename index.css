@@ -1,0 +1,89 @@
+body {
+    align-items: center;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-fresh-and-simple-beer-poster-background-illustration-image_187774.jpg); 
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+    font-size: 85px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: black;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative; 
+    top: -35px;
+}
+
+select {
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    position: relative; 
+    top: 50px;
+}
+
+#submit {
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 5%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 49%;
+    left: 46%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+#clear {
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 5%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 49%;
+    left: 54%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* Trying to remove the automatic highlight; only a problem with chrome on mac? Possible code below did not work
+    outline: none;
+    box-shadow: none;
+    user-select: none;*/
+}
+
+.likeButton {
+    color: red;
+    margin-left: 10px;
+
+}
+
+#brewery-list {
+    background-color: white;
+    width: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+
+#brewery-results {
+    margin-top: 150px;
+    
+}
+
+.typeOfBrewery {
+    text-transform: capitalize;
+}
+
+.nameOfBrewery {
+    font-weight: bold;
+}
