@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="stylesheets/index.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Cheers!</title>
+  </head>
+
+  <body>   
+    <div class="container">
+        <div id="main">
+            <h1 class="center-align">Cheers!</h1>
+            <h2 class="center-align">Your Brewery Finder</h2>
+        </div>
+    </div>
+      <select id="states" style="display: block;">
+        <option value="none" selected disabled hidden>Select State</option>
+        <option value="Arizona">Arizona</option>
+        <option value="California">California</option>
+        <option value="Colorado">Colorado</option>
+        <option value="Idaho">Idaho</option>
+        <option value="Indiana">Indiana</option>
+        <option value="Massachusetts">Massachusetts</option>
+        <option value="Minnesota">Minnesota</option>
+        <option value="Nevada">Nevada</option>
+        <option value="New York">New York</option>
+        <option value="Oregon">Oregon</option>
+        <option value="Texas">Texas</option>
+        <option value="Washington">Washington</option>
+      </select>
+    <form id="brewery-form">
+      <input type="submit" id="submit" value="Search"></input>
+    </form>
+    <button id="clear">Clear</button>
+    <div id="brewery-results">
+      <ul id="brewery-list">
+      </ul>
+    </div>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
