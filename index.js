@@ -43,7 +43,24 @@ function renderStates(selectedState) {
       liker.textContent = EMPTY_HEART
     }
   }
-  
+
   const breweryList = document.getElementById('brewery-list')
   if (breweryList.innerHTML === '\n        ' || breweryList.innerHTML === ' ' || breweryList.innerHTML === '' || breweryList.innerText === "") {
     resultsInState = breweries.filter((brewery) => brewery.state === selectedState)
+
+    for (let i = 0; i < resultsInState.length; i++) {
+      const listItem = document.createElement('li')
+      const name = document.createElement('p')
+      name.innerText = resultsInState[i].name
+      name.classList.add('nameOfBrewery')
+      const descrip = document.createElement('p')
+      descrip.innerText = `Brewery Type: `
+      const type = document.createElement('span')
+      type.classList.add('typeOfBrewery')
+      type.innerText = resultsInState[i].brewery_type
+      descrip.append(type)
+      const phone = document.createElement('p')
+      phone.innerText = `Phone Number: ${resultsInState[i].phone || ''}`
+      const weblink = document.createElement('a')
+      weblink.innerText = `Website`
+      weblink.href = resultsInState[i].website_url
