@@ -43,3 +43,7 @@ function renderStates(selectedState) {
       liker.textContent = EMPTY_HEART
     }
   }
+  
+  const breweryList = document.getElementById('brewery-list')
+  if (breweryList.innerHTML === '\n        ' || breweryList.innerHTML === ' ' || breweryList.innerHTML === '' || breweryList.innerText === "") {
+    resultsInState = breweries.filter((brewery) => brewery.state === selectedState)
